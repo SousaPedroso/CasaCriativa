@@ -13,18 +13,6 @@ db.serialize(function() {
             link TEXT
         );
     `)
-    // TENTAR EXECUTAR COM O DELETAR
-    // db.run(`DELETE FROM ideas WHERE id = ?`, [3], function(err){
-    //     if (err) return console.log(err)
-
-    //     console.log("Ideia deletada", this)
-    // })
-    
-    // db.all(`SELECT * FROM IDEAS`, function(err, rows){
-    //     if (err) return console.log(err)
-
-    //     console.log(rows)
-    // })
 
 })
 

@@ -3,52 +3,6 @@ const server = express()
 
 const db = require("./db")
 
-// const ideas = [
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729007.svg",
-//         title: "Cursos de Programação",
-//         category: "Estudo",
-//         description: "Teste",
-//         url: "https://rocketseat.com.br"
-//     },
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729005.svg",
-//         title: "Exercícios",
-//         category: "Saúde",
-//         description: "Teste",
-//         url: "https://rocketseat.com.br"
-//     },
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729027.svg",
-//         title: "Meditação",
-//         category: "Mentalidade",
-//         description: "Teste",
-//         url: "https://rocketseat.com.br"
-//     },
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729032.svg",
-//         title: "Karaokê",
-//         category: "Diversão em família",
-//         description: "Teste",
-//         url: "https://rocketseat.com.br"
-//     },
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729038.svg",
-//         title: "Pintura",
-//         category: "Criatividade",
-//         description: "Teste",
-//         url: "https://rocketseat.com.br"
-//     },
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729048.svg",
-//         title: "Recortes",
-//         category: "Criatividade",
-//         description: "Teste",
-//         url: "https://rocketseat.com.br"
-//     }
-
-// ]
-
 server.use(express.static("public"))
 
 server.use(express.urlencoded({extended: true}))
