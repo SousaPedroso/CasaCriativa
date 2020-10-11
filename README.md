@@ -9,7 +9,6 @@ Essa interação ocorre das seguintes formas:
 - Você pode adicionar ideias ao clicar em Adicionar Ideia e preenchendo o formulário ![Adicionar ideia](/samples/Adicionar.PNG)
 
 ## Execução
-__Dependências__:
 
 __Executar o projeto__:
 - *Clone* o repositório e vá até a _raiz_ do projeto:
